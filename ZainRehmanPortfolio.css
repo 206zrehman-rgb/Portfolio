@@ -1,8 +1,8 @@
 body{
-    background-color: black;
+    background-color: rgb(48, 42, 85);
     font-family: sans-serif;
     color: wheat;
-    background-image: url('bg.jpeg');
+    background-image: url('bg.jpeg'); 
     background-size: cover;     
     background-position: center;  
     background-repeat: no-repeat; 
@@ -50,7 +50,6 @@ html {
     justify-content: space-between; 
     padding: 0 90px; 
 }
-
 
 .welcomeTitle{
     font-size: 90px;
@@ -136,6 +135,12 @@ html {
     width: 40%;
     height: 50%;
 
+}
+
+.thisSite{
+    padding-top: 10%;
+    text-align: center;
+    
 }
 
 
