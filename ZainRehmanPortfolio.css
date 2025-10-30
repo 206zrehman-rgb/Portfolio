@@ -1,0 +1,211 @@
+body{
+    background-color: black;
+    font-family: sans-serif;
+    color: wheat;
+    background-image: url('bg.jpeg');
+    background-size: cover;     
+    background-position: center;  
+    background-repeat: no-repeat; 
+}
+
+section{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+#header{
+    text-align: center;
+    background-color: wheat;
+    font-size: larger;
+    margin-top: 0px;
+}
+
+#Projects{
+    text-align: left;
+    background-color: black;
+    font-size: larger;
+}
+
+#Welcome .alignmentWelcome{
+    display: flex;
+    align-items: center; /* Vertically aligns items */
+    justify-content: space-between; /* Keeps space between left and right */
+    padding: 0 90px; /* optional, same as your left padding */
+}
+
+
+
+#aboutMe .alignment{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 0 90px; 
+}
+
+
+.welcomeTitle{
+    font-size: 90px;
+    padding-top: 0%;
+    align-items: center;
+}
+
+.welcomeName{
+    font-size: 50px;
+    text-align: left;
+    align-items: left;
+    padding-left: 90px;
+}
+
+.welcomep{
+    font-size: 20px;
+    text-align: left;
+    align-items: left;
+    padding-left: 90px;
+}
+
+.planet{
+    width: 400px;
+    height: 400px;
+    float: right;
+
+}
+
+.sugarLevelGif{
+    width: 400px;
+    height: 300px;
+    float: right;
+    padding-bottom: 5%;
+
+}
+
+.right{
+    float: right;
+    width: 40%;
+    height: 50%;
+    
+}
+
+.left{
+    float: left ;
+    margin-left: 40px;
+    width: 40%;
+    height: 50%;
+
+}
+
+
+.right2{
+    float: right;
+    width: 40%;
+    height: 50%;
+    padding-right: 10%;
+    
+}
+
+
+.contactInfo{
+    font-size: 70px;
+    padding-top: 0%;
+    align-items: center;
+}
+
+
+.Passions {
+    float: left ;
+    margin-left: 40px;
+    text-align: left;
+    width: 40%;
+    height: 50%;
+
+}
+
+
+.skills {
+    float: right ;
+    margin-left: 40px;
+    text-align: left;
+    width: 40%;
+    height: 50%;
+
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+    .left, .right{
+        float: none;
+        width: 100%;
+        height: 50%;
+        margin-left: 0px;
+    }
+
+    .imageSize{
+        width: 200px;
+        height: 200px;
+    }
+
+    
+ 
+}
+
+
+@media only screen and (max-width: 425px) {
+    .welcomeTitle {
+        font-size: 40px;
+    }
+
+    .welcomeName {
+        font-size: 30px;
+        padding-left: 20px;
+    }
+
+    .welcomep {
+        font-size: 16px;
+        padding-left: 20px;
+    }
+
+    .planet, .sugarLevelGif {
+        width: 200px;
+        height: auto;
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .left, .right, .right2, .Passions, .skills {
+        float: none;
+        width: 100%;
+        height: auto;
+        margin: 0;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .alignmentWelcome, .alignment {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    .contactInfo {
+        font-size: 30px;
+        padding: 20px;
+    }
+
+    section {
+        min-height: auto;
+        padding: 20px 0;
+    }
+
+    #Projects {
+        font-size: medium;
+    }
+}
